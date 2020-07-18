@@ -121,7 +121,6 @@ def helper_dp(data, k, memo):
 		result += helper_dp(data, k-2, memo)
 
 	memo[k] = result
-	print("memo: ", memo)
 	return result
 
 
