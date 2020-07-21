@@ -18,7 +18,6 @@ def merge_sort(arr):
 
 	i = j = k = 0
 
-	ret = []
 	while ( (i < len(arr_left)) and (j < len(arr_right)) ):
 		if( arr_left[i] < arr_right[j] ):
 			arr[k] = arr_left[i]
@@ -56,4 +55,3 @@ res = merge_sort(a)
 print()
 print("Result: ") 
 print(*res)
-
